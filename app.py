@@ -8,7 +8,7 @@ if 'name' not in st.session_state:
   st.session_state['name'] = ''
 
 if 'name' in st.sessiom_state:
-  st.session_state['nombre']
+  st.write(nombre)
 
 if st.button('Click me'):
   st.session_state['count'] += 1
